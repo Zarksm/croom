@@ -1,0 +1,10 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Instrument+Serif:ital@0;1&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.linkM{
+    @apply block py-2 text-5xl hover:text-zinc-600 transition-all duration-300 font-black;
+}
